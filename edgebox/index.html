@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inovetez EdgeBox</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 36px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #eff6ff;
+      color: #1d4ed8;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 12px;
+      color: #0f172a;
+    }
+
+    p {
+      color: #475569;
+      margin-bottom: 24px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .card {
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 18px;
+      background: #f8fafc;
+    }
+
+    .card h2 {
+      font-size: 1rem;
+      margin-bottom: 6px;
+      color: #1e293b;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .btn-primary {
+      background-color: #0f172a;
+      color: #ffffff;
+    }
+
+    .btn-secondary {
+      background-color: #f1f5f9;
+      color: #0f172a;
+      border: 1px solid #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <span class="badge">Inovetez Solutions</span>
+    <h1>Inovetez EdgeBox</h1>
+    <p>
+      Landing page for Inovetez EdgeBox solutions. Content is managed in GitHub
+      and automatically deployed to Netlify.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Edge Compute</h2>
+        <p>Local data processing at the edge for low latency and high operational reliability.</p>
+      </div>
+      <div class="card">
+        <h2>IoT &amp; Connectivity</h2>
+        <p>Seamless integration with sensors, industrial hardware, and field protocols.</p>
+      </div>
+      <div class="card">
+        <h2>Git-Driven Updates</h2>
+        <p>Easy collaboration and continuous updates pushed directly through Git.</p>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a class="btn btn-primary" href="/">Back to Home</a>
+      <a class="btn btn-secondary" href="/privacy-policy.html">Privacy Policy</a>
+    </div>
+  </main>
+</body>
+</html>
